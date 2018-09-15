@@ -295,6 +295,8 @@ namespace TreeTestApp
 			if (root == fullpath)
 			{
 				DriveInfo info = new DriveInfo(root);
+                if (!info.IsReady)
+                    return;
 				double freesize = info.TotalFreeSpace;
 				double usedsize = info.TotalSize - info.TotalFreeSpace;
 				node[(int)eColumns.Size] = GetSizeString((long)freesize, eSizeDisplayType.Best) + " free of " + GetSizeString((long)info.TotalSize, eSizeDisplayType.Best);
