@@ -1,19 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeTestApp", "TreeTestApp\TreeTestApp.csproj", "{C8011644-430D-43A4-83EB-361C6265C67D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTools", "..\CommonTools\CommonTools.csproj", "{6D83410F-1413-4671-994C-AF095C3E5937}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 3
-		SccProjectUniqueName0 = TreeTestApp\\TreeTestApp.csproj
-		SccLocalPath0 = TreeTestApp
-		SccProjectUniqueName1 = ..\\CommonTools\\CommonTools.csproj
-		SccLocalPath1 = ..\\CommonTools
-		SccLocalPath2 = .
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -30,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E23FFF80-8D81-4F05-968B-8B7EBAED06C1}
 	EndGlobalSection
 EndGlobal
